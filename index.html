@@ -7,12 +7,16 @@
     <title>practice</title>
 </head>
 <body>
-    <div class="hello">
-        <h1>클릭해봐!</h1>
-    </div>
-    <div>
-        확인용!
-    </div>
+    <form id="login-form" class="hidden">
+        <input 
+            required 
+            maxlength="15" 
+            type="text" 
+            placeholder="What is your name?" 
+        />
+        <input type="submit" value="Log in"></input>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
     <script src="app.js"></script>
 </body>
 </html>
